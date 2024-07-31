@@ -1,0 +1,29 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px 10px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    width: calc(100% - 40px); /* Sesuaikan ukuran input dan tombol dengan lebar layar */
+    max-width: 300px; /* Berikan batas maksimum lebar */
+}
+
+button {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 20px 10px;
+    }
+    input, button {
+        padding: 10px;
+        margin: 5px;
+        width: calc(100% - 30px); /* Sesuaikan ukuran input dan tombol untuk layar lebih kecil */
+        max-width: 100%;
+    }
+}
